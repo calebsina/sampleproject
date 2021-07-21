@@ -1,0 +1,155 @@
+/*
+Template Name:IT Consulting
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************about****************/
+.center_about {
+	margin-top:80px;
+	background:#fbbd0e;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.center_about_1i h4:before {
+    display: inline-block;
+    width: 15%;
+    height: 2px;
+    background-color: #fff;
+    vertical-align: middle;
+    margin-right: 2%;
+    content: "";
+}
+.center_about_1i h1{
+ font-size:60px;
+ line-height:1em;
+ }
+.center_about_1i1{
+margin-top:155px; 
+ }
+#about_page{
+padding-top:40px;
+padding-bottom:40px; 
+ }
+.about_pg_1i img{
+margin-top:20px; 
+ }
+ 
+#prosp{
+  background:#fafafa;
+  padding-top:40px;
+  padding-bottom:40px;
+  }
+.Prosp_1 h4:before {
+    display: inline-block;
+    width: 6%;
+    height: 2px;
+    background-color: #fbbd0e;
+    vertical-align: middle;
+    margin-right: 1%;
+    content: "";
+}
+.Prosp_1 h4:after {
+    display: inline-block;
+    width: 6%;
+    height: 2px;
+    background-color: #fbbd0e;
+    vertical-align: middle;
+    margin-left: 1%;
+    content: "";
+}
+.Prosp_2i h5 a:after {
+    display: inline-block;
+    width: 10%;
+    height: 2px;
+    background-color: #fbbd0e;
+    vertical-align: middle;
+    margin-left: 2%;
+    content: "";
+}
+.Prosp_2{
+margin-top:30px; 
+ }
+.Prosp_2i img{
+ border-radius:30px 0px;
+ }
+ 
+#testimonial_h{
+  padding-top:50px;
+  padding-bottom:80px;
+  }
+#testimonial_h .carousel {
+    margin-bottom: 0;
+}
+/* The indicators */
+#testimonial_h .carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -50px;
+	margin-right: -19px;
+}
+/* The colour of the indicators */
+#testimonial_h .carousel-indicators li {
+	background: #cecece;
+}
+#testimonial_h .carousel-indicators .active {
+background: #18407c;
+}
+.testimonial_hm{
+  background:#fafafa;
+  border-right:1px solid #ddd;
+  border-left:1px solid #ddd;
+  border-top:1px solid #ddd;
+  border-bottom:3px solid #18407c;
+  padding:20px 15px;
+  }
+.testimonial_hm hr{
+  border-color:#fbbd0e;
+  border-width:3px;
+  width:5%; 
+   }
+.testimonial_hm img{
+   border:5px solid #fff;
+   }
+.testimonial_hm h4{
+ color:#fbbd0e;
+ font-size:20px;
+   }
+/*********************about_end****************/
+
+@media screen and (max-width : 767px){
+.center_about{
+ margin-top:0;
+ text-align:center;
+ }
+.center_about_1i1 {
+ margin-top:10px;
+ }
+#about_page{
+ text-align:center; 
+ }
+#prosp{
+ text-align:center; 
+ }
+.Prosp_2i {
+margin-bottom:15px; 
+ }
+.testimonial_hm {
+margin-top:15px; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+ }
+@media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1345px) {
+
+ }
+
+
+
+

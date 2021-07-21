@@ -1,0 +1,169 @@
+/*
+Template Name:IT Consulting
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************detail****************/
+.detail_page{
+ margin-top:80px;
+ padding-top:40px;
+ padding-bottom:40px;
+ }
+.blog_1ri .btn{
+ background:#ed1b24;
+ border-color:#ed1b24;
+  }
+.blog_1ri1{
+margin-top:20px; 
+ }
+.blog_1ri1 hr{
+border-color:#ed1b24;
+width:30%;
+margin-left:0; 
+border-width:2px;
+margin-top:15px;
+margin-bottom:15px;
+ }
+.blog_1ri1i{
+ margin-bottom:15px;
+ padding-bottom:15px;
+ border-bottom:1px solid #ddd;
+ }
+
+.blog_1ri2{
+margin-top:20px; 
+ }
+.blog_1ri2 hr{
+border-color:#ed1b24;
+width:30%;
+margin-left:0; 
+border-width:2px;
+margin-top:15px;
+margin-bottom:15px;
+ }
+.blog_1ri2 h5{
+ border-bottom:1px solid #ddd;
+ padding-bottom:15px;
+ margin-bottom:15px;
+ }
+.blog_1ri2 ul li{
+display:inline-block; 
+margin-bottom:8px;
+margin-right:2px;
+ }
+.blog_1ri2 ul li a{
+display:block;
+background: #ed1b24;
+border-radius:20px;
+padding:10px;
+color:#fff;
+ }
+.blog_1ri2 ul li a:hover{
+ background:#18407c;
+ }
+ 
+.detail_li ul li{
+display:inline-block;
+margin-right:10px; 
+ }
+.detail_li ul li i{
+vertical-align:middle;
+ }
+.detail_li hr{
+border-width:2px;
+border-color: #ed1b24;
+width:6%;
+margin-left:0;
+ }
+.detail_li img{
+margin-top:20px; 
+ }
+.detail_li1l ul li{
+display:inline-block;
+margin-right:5px; 
+ }
+.detail_li1l ul li a{
+display:block;
+background:#ed1b24;
+color:#fff;
+padding:10px;
+border-radius:20px; 
+ }
+.detail_li1l ul li a:hover{
+  background:#18407c;
+ }
+.detail_li1r ul li a{
+ background:#18407c;
+ }
+ 
+.detail_li2r h5 a {
+    margin-left: 30px;
+}
+.detail_li2{
+background:#fafafa;
+padding:40px 20px;
+margin-top:30px; 
+ }
+.detail_li3{
+margin-top:10px; 
+ }
+.detail_li3 .button_2 i{
+ vertical-align:middle;
+ }
+.detail_li3 .form-control{
+margin-top:10px;
+height:50px; 
+ }
+.detail_li3 .form_1{
+height:150px; 
+ }
+/*********************detail_end****************/
+
+
+@media screen and (max-width : 767px){
+.detail_page{
+ margin-top:0;
+ text-align:center;
+ }
+.detail_li hr{
+margin-left:auto; 
+ }
+.detail_li1l ul li{
+margin-top:5px; 
+ }
+.blog_1r {
+margin-top:20px; 
+ }
+.blog_1ri1 hr{
+margin-left:auto;
+ }
+.blog_1ri2 hr{
+margin-left:auto;
+ }
+.blog_1ri2 h5{
+text-align:left;
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.detail_li1l ul li{
+margin-bottom:8px; 
+ }
+.blog_1ri1i h6{
+margin-top:0; 
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+.detail_li1l ul li{
+margin-bottom:8px; 
+ }
+ }
+@media (min-width:1201px) and (max-width:1345px) {
+
+ }
+
+
+
+

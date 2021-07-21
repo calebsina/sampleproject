@@ -1,0 +1,161 @@
+/*
+Template Name:IT Consulting
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************blog****************/
+.center_blog {
+    background-image: url(../img/10.jpg);
+	margin-top:80px;
+}
+.center_blog_m{
+ padding-top:150px;
+ padding-bottom:150px;
+ background:#0000007a; 
+  }
+.center_blog_1 h4:before {
+    display: inline-block;
+    width: 4%;
+    height: 2px;
+    background-color: #ed1b24;
+    vertical-align: middle;
+    margin-right: 1%;
+    content: "";
+}
+.center_blog_1 h4 a:hover{
+ color:#fafafa;
+ }
+
+#blog{
+ padding-top:40px;
+ padding-bottom:10px; 
+  }
+.blog_1lir ul li{
+display:inline-block;
+margin-right:10px; 
+ }
+.blog_1lir ul:before {
+    display: inline-block;
+    width: 4%;
+    height: 2px;
+    background-color: #ed1b24;
+    vertical-align: middle;
+    margin-right: 1%;
+    content: "";
+}
+.blog_1lir ul li a i{
+vertical-align:middle; 
+ }
+.blog_1lir1 ul li a {
+    background-color: #18407c;
+}
+.blog_1li{
+margin-bottom:30px;
+border-bottom:1px solid #ddd;
+padding-bottom:30px; 
+ }
+ 
+.blog_1ri .btn{
+ background:#ed1b24;
+ border-color:#ed1b24;
+  }
+.blog_1ri1{
+margin-top:20px; 
+ }
+.blog_1ri1 hr{
+border-color:#ed1b24;
+width:30%;
+margin-left:0; 
+border-width:2px;
+margin-top:15px;
+margin-bottom:15px;
+ }
+.blog_1ri1i{
+ margin-bottom:15px;
+ padding-bottom:15px;
+ border-bottom:1px solid #ddd;
+ }
+
+.blog_1ri2{
+margin-top:20px; 
+ }
+.blog_1ri2 hr{
+border-color:#ed1b24;
+width:30%;
+margin-left:0; 
+border-width:2px;
+margin-top:15px;
+margin-bottom:15px;
+ }
+.blog_1ri2 h5{
+ border-bottom:1px solid #ddd;
+ padding-bottom:15px;
+ margin-bottom:15px;
+ }
+.blog_1ri2 ul li{
+display:inline-block; 
+margin-bottom:8px;
+margin-right:2px;
+ }
+.blog_1ri2 ul li a{
+display:block;
+background: #ed1b24;
+border-radius:20px;
+padding:10px;
+color:#fff;
+ }
+.blog_1ri2 ul li a:hover{
+ background:#18407c;
+ }
+/*********************blog_end****************/
+
+
+@media screen and (max-width : 767px){
+.center_blog {
+margin-top:0;
+text-align:center;
+}
+.center_blog_m{
+ padding-top:80px;
+ padding-bottom:80px;
+  }
+.blog_1lir{
+ margin-top:15px;
+ }
+#blog{
+text-align:center; 
+ }
+.blog_1ri1 hr{
+margin-left:auto;
+ }
+.blog_1ri2 hr{
+margin-left:auto;
+ }
+.blog_1ri2 h5{
+text-align:left;
+ }
+.blog_1lir1 h5{
+ text-align:center;
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.blog_1lir1 h5 a{
+padding:15px 20px!important;
+ }
+.blog_1ri1i h6{
+margin-top:0; 
+ }
+ }
+@media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1345px) {
+
+ }
+
+
+
+
